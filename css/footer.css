@@ -1,0 +1,71 @@
+/* Footer */
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: black;
+	color: white;
+	text-align: left;
+}
+footer #container {
+	height: 40px;
+	padding: 12px 24px;
+}
+footer #container #footer_1,
+footer #container #footer_2 {
+	display: inline-block;
+}
+footer #container #footer_2 {
+	float: right;
+}
+footer #container #footer_2 span#mention_legale {
+	color: #A00404;
+	cursor: pointer;
+}
+footer #container #footer_2 span#mention_legale:hover {
+    text-decoration: underline;
+}
+/* Mentions légales */
+#container_mention_legale {
+	display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255,255,255,.7);
+    z-index: 1;
+}
+#container_mention_legale #dialBox_mention_legale {
+	display: none;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; 
+    background-color: black;
+	width: 1000px;
+	height: 500px;
+	border: black 3px solid;
+
+}
+#dialBox_mention_legale #title {
+	background-color: #A00404;
+	color: black;
+	font-weight: bold;
+	padding: 5px;
+}
+#dialBox_mention_legale #title #close {
+	float: right;
+	cursor: pointer;
+}
+#dialBox_mention_legale #content {
+	overflow: auto;
+	height: 460px;
+	padding: 5px;
+}
+#dialBox_mention_legale #content a{
+	color: #A00404;
+}

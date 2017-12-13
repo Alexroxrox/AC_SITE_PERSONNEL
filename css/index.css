@@ -1,0 +1,82 @@
+body {
+	background-color: #BBC7B9;
+}
+section#index {
+	height: 100%;
+	background-image: url(../images/accueil/programming.png);
+	background-size: 100% 100%;
+}
+section#index #couche {
+	background-color: rgba(255, 255, 255, 0.9);
+	height: 100%;
+}
+/* Banière */
+
+header#banner #container {
+	text-align: center;
+	padding: 94px 0 50px;
+}
+header#banner #container #bannerLogo {
+	height:140px;
+	vertical-align: bottom;
+}
+header#banner #container h1{
+	font-size: 4rem;
+	font-weight: normal;
+	display: inline-block;
+	margin-right: 75px;
+}
+/*section introduction*/
+
+section#introduction {
+	text-align: center;
+}
+section#introduction  h2 {
+	font-size: 2rem;
+}
+section#introduction p {
+	max-width: 300px;
+}
+section#introduction #competences,
+section#introduction #mon_cv {
+	display: inline-block;
+	vertical-align: top;
+}
+section#introduction #competences #content,
+section#introduction #mon_cv #content {
+	margin-top: 15px;
+	padding: 0 10px;
+}
+section#introduction .img {
+	height: 110px;
+	width: 110px;	
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	margin: 0 auto;
+}
+section#introduction #competences .muscle_img_1 {
+	background-image: url(../images/dessin/muscle.png);
+}
+section#introduction #competences .muscle_img_2 {
+	background-image: url(../images/dessin/muscle_red.png);
+	height: 150px;
+	width: 150px;
+}
+section#introduction #mon_cv .cv_img_1 {
+	background-image: url(../images/dessin/cv.png);
+}
+section#introduction #mon_cv .cv_img_2 {
+	background-image: url(../images/dessin/cv.png);
+	height: 150px;
+	width: 150px;
+}
+
+/*section mon cv*/
+
+section#introduction #mon_cv a#monCv {
+	color: #A00404;
+}
+section#introduction #mon_cv a#monCv:hover {
+    text-decoration: underline;
+}

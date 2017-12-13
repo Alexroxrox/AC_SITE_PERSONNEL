@@ -1,0 +1,506 @@
+body {
+	background-color: #BBC7B9;
+	overflow: hidden;
+}
+section {
+	height: 100%;
+	position: relative;
+}
+/*scroll*/
+.scroll {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 103px;
+	padding: 5px 10px;
+	text-align: center;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: rgba(255, 255, 255, 0.7);
+}
+.scrollTop {
+	top: 8%;
+}
+.scrollBot {
+	bottom: 8%;
+}
+.scroll img {
+	float: left;
+	height: 20px;
+	opacity: 0.7;
+}
+.scroll span {
+	float: right;;
+}
+/* Banière */
+header#banner #container {
+	text-align: center;
+	padding: 94px 0 50px;
+}
+header#banner #container #bannerLogo {
+	height:140px;
+	vertical-align: bottom;
+}
+header#banner #container h1{
+	font-size: 4rem;
+	font-weight: normal;
+	display: inline-block;
+	margin-right: 75px;
+}
+
+/*section introduction*/
+section#introduction {
+	height: 100%;
+	background-image: url(../images/introduction/plage.jpg);
+	background-size: 100% 100%;
+}
+section#introduction > #couche {
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+section#introduction > #couche > #container {
+	padding: 25px 0;
+	text-align: center;
+}
+section#introduction h2 {
+	font-size: 2rem;
+}
+section#introduction > #couche > #container #content {
+	margin-top: 15px;
+}
+section#introduction > #couche > #container img {
+	height: 210px;
+	border: black 2px solid;
+	margin-top: 15px;
+}
+/*Section module 1*/
+section#module_1 {
+	text-align: center;
+	background-image: url("../images/module_1/cadeaux_2.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+section#module_1 > #container_1 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 210px;
+	margin: auto;
+}
+section#module_1 #container_2 {
+	display: inline-block;
+	padding: 25px 10px;
+	background-color: rgba(80, 254, 255, 0.6);
+	border: black 3px solid;
+}
+section#module_1  h2 {
+	font-size: 2rem;
+}
+section#module_1  #content {
+	margin-top: 15px;
+}
+section#module_1 #content_module {
+	display: inline-block;
+	margin: 0 auto;
+	text-align: left;
+	border: black 2px solid;
+	padding: 5px;
+}
+section#module_1 form#mdl_1 {
+	display: inline-block;
+}
+section#module_1 #result {
+	display: none;
+	vertical-align: top;
+	margin-left: 25px;
+}
+section#module_1 form#mdl_1 #validation {
+	text-align: center;
+}
+section#module_1 form#mdl_1 label {
+	width: 124px;
+	display: inline-block;
+}
+section#module_1 form#mdl_1 input[type="text"],
+section#module_1 form#mdl_1 input[type="date"] {
+	margin-bottom: 2px;
+}
+section#module_1 #content_detail {
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 15px;
+	text-align: left;
+	font-size: 1.2rem;
+	background-color: rgba(80, 254, 255, 0.6);
+	border-top: black 3px solid;
+	border-right: black 3px solid;
+
+}
+section#module_1 #content_detail span.tech {
+	cursor: pointer;
+}
+section#module_1 #content_detail span.tech:hover {
+	text-decoration: underline;
+}
+section#module_1 #content_detail img#infoBulle {
+	height: 15px; 
+}
+/* Boite de dialogue module 1 */
+#container_module_1 {
+	display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255,255,255,.7);
+    z-index: 1;
+}
+#container_module_1 #dialBox_module_1 {
+	display: none;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; 
+    background-color: black;
+	width: 1000px;
+	height: 500px;
+	border: black 3px solid;
+
+}
+#dialBox_module_1 #title {
+	background-color: #A00404;
+	color: black;
+	font-weight: bold;
+	padding: 5px;
+}
+#dialBox_module_1 #title #close {
+	float: right;
+	cursor: pointer;
+}
+#dialBox_module_1 #content {
+	text-align: center;
+	padding-top: 5px;
+	overflow: auto;
+}
+
+/*Section module 2*/
+section#module_2 {
+	text-align: center;
+	background-image: url("../images/module_2/agenda.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+section#module_2 > #container_1 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 411px;
+	margin: auto;
+}
+section#module_2 #container_2 {
+	display: inline-block;
+	padding: 25px 10px;
+	background-color: rgba(232, 229, 186, 0.8);
+	border: black 3px solid;
+}
+section#module_2 h2 {
+	font-size: 2rem;
+}
+section#module_2 #content {
+	margin-top: 15px;
+}
+section#module_2 #content_module {
+	display: inline-block;
+	min-width: 600px;
+	margin: 0 auto;
+	text-align: left;
+	border: black 2px solid;
+	padding: 5px;
+}
+section#module_2 form#mdl_2_add {
+	text-align: center;
+}
+section#module_2 form#mdl_2_add #info span {
+	color: #A00404;
+}
+section#module_2 #listTodo {
+	overflow: auto;
+	max-height: 250px;
+	margin-top: 15px;
+}
+section#module_2 table {
+	width: 550px;
+	margin: 0 auto;
+}
+section#module_2 table,
+section#module_2 th,
+section#module_2 td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+section#module_2 th,
+section#module_2 td {
+	padding: 3px;
+}
+section#module_2 tr td.state,
+section#module_2 tr td.upd,
+section#module_2 tr td.del {
+	text-align: center;
+	width: 20px;
+}
+section#module_2 tr td.state img,
+section#module_2 tr td.upd img,
+section#module_2 tr td.upd span,
+section#module_2 tr td.del span {
+	cursor: pointer;
+}
+section#module_2 table thead {
+	text-align: center;
+}
+section#module_2 #listTodo img.state {
+	height: 15px;
+}
+section#module_2 #listTodo img.upd {
+	height: 15px;
+}
+section#module_2 #content_detail {
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 15px;
+	text-align: left;
+	font-size: 1.2rem;
+	background-color: rgba(232, 229, 186, 0.8);
+	border-top: black 3px solid;
+	border-right: black 3px solid;
+}
+
+/*Section module 3*/
+section#module_3 {
+	text-align: center;
+	background-image: url("../images/module_3/livre.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+section#module_3 > #container_1 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 492px;
+	margin: auto;
+}
+section#module_3 #container_2 {
+	display: inline-block;
+	padding: 25px 10px;
+	background-color: rgba(221, 190, 162, 0.8);
+	border: black 3px solid;
+}
+section#module_3 h2 {
+	font-size: 2rem;
+}
+section#module_3 #content {
+	margin-top: 15px;
+}
+section#module_3 #content_module {
+	display: inline-block;
+	margin: 0 auto;
+	border: black 2px solid;
+	padding: 5px;
+}
+/* Se connecter*/
+section#module_3 form#mdl_3_connect {
+	text-align: center;
+}
+section#module_3 form#mdl_3_connect label {
+	display: inline-block;
+	width: 100px;
+	text-align: left;
+}
+section#module_3 form#mdl_3_connect #identifiant,
+section#module_3 form#mdl_3_connect #mdp {
+	margin-bottom: 5px;
+}
+/* Se déconnecter*/
+section#module_3 #zone_connect {
+	display:none;
+	padding: 5px;
+	text-align: right;
+}
+section#module_3 #zone_connect span#deconnect {
+	color: #A00404;
+	cursor: pointer;
+}
+section#module_3 #zone_connect span#deconnect:hover {
+	text-decoration: underline;
+}
+/* Zone bibliothécaire*/
+section#module_3 #zone_bibliothecaire {
+	display:none;
+	text-align: center;
+}
+section#module_3 #zone_bibliothecaire #zone_form {
+	display: inline-block;
+	padding: 5px;
+}
+section#module_3 #zone_bibliothecaire #zone_form form {
+	margin: 5px 0;
+	text-align: left;
+}
+section#module_3 #zone_bibliothecaire #zone_form label:not(#lbl_mdp) {
+	width: 140px;
+	display: inline-block;
+}
+section#module_3 #zone_bibliothecaire #zone_form label#lbl_mdp {
+	padding: 0 5px;
+}
+section#module_3 #zone_bibliothecaire #zone_form input[type='text'],
+section#module_3 #zone_bibliothecaire #zone_form input[type='password'],
+section#module_3 #zone_bibliothecaire #zone_form select {
+	width: 143px;
+	border: 0px;
+	padding: 0px;
+}
+section#module_3 #zone_bibliothecaire #zone_information {
+	display: none;
+	padding: 5px;
+	color: #A00404;
+}
+section#module_3 #zone_bibliothecaire #zone_table {
+	overflow: auto;
+	white-space: nowrap;
+	max-height: 240px;
+	min-width: 650px;
+}
+section#module_3 #zone_bibliothecaire table {
+	display: inline-block;
+	vertical-align: top;
+	margin: 5px;
+	white-space: normal;
+}
+section#module_3 #zone_bibliothecaire table,
+section#module_3 table caption,
+section#module_3 table th,
+section#module_3 table td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+section#module_3 table caption,
+section#module_3 table th,
+section#module_3 table td {
+	padding: 5px;
+}
+section#module_3 #zone_bibliothecaire table#bibliotheque {
+
+}
+section#module_3 #zone_bibliothecaire table#bibliotheque span.del {
+	cursor: pointer;
+}
+section#module_3 #zone_bibliothecaire table#lecteur span.del {
+	cursor: pointer;
+}
+
+section#module_3 #zone_bibliothecaire table#emprunt td.rendre {
+	text-align: center;
+}
+section#module_3 #zone_bibliothecaire table#emprunt img.rendre {
+	height: 15px;
+	cursor: pointer;
+}
+/* Zone lecteur*/
+section#module_3 #zone_lecteur {
+	display:none;
+}
+section#module_3 #zone_lecteur table#livres_emprunt {
+	margin: 0 auto;
+	width: 400px;
+}
+section#module_3 table#livres_emprunt,
+section#module_3 table#livres_emprunt caption,
+section#module_3 table#livres_emprunt th,
+section#module_3 table#livres_emprunt td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+section#module_3 #content_info {
+	display: inline-block;
+	position: absolute;
+	top: 47px;
+	right: 0;
+	padding: 15px;
+	text-align: left;
+	font-size: 1.2rem;
+	background-color: rgba(221, 190, 162, 0.8);
+	border-left: black 3px solid;
+	border-bottom: black 3px solid;
+}
+section#module_3 #content_detail {
+	display: inline-block;
+	position: absolute;
+	bottom: 64px;
+	left: 0;
+	padding: 15px;
+	text-align: left;
+	font-size: 1.2rem;
+	background-color: rgba(221, 190, 162, 0.8);
+	border-top: black 3px solid;
+	border-right: black 3px solid;
+}
+/* Boite de dialogue module 3 */
+#container_module_3 {
+	display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255,255,255,.7);
+    z-index: 1;
+}
+#container_module_3 #dialBox_module_3 {
+	display: none;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; 
+    background-color: black;
+	width: 1000px;
+	height: 500px;
+	border: black 3px solid;
+
+}
+#dialBox_module_3 #title {
+	background-color: #A00404;
+	color: black;
+	font-weight: bold;
+	padding: 5px;
+}
+#dialBox_module_3 #title #close {
+	float: right;
+	cursor: pointer;
+}
+#dialBox_module_3 #content {
+	text-align: center;
+	padding-top: 5px;
+	overflow: auto;
+}
+
+/*Dernière section*/
+/*section#lastSection {
+	background-color: #BBC7B9;
+	padding-bottom: 64px
+}*/

@@ -1,0 +1,38 @@
+/* Barre de navigation */
+nav#navBar{
+	height: 47px;
+	z-index: 1;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	background-color: black;
+	text-align: center;
+}
+nav#navBar ul, nav#navBar ul li {
+	display: inline-block;
+}
+nav#navBar ul {
+	padding: 12px 0;
+}
+nav#navBar ul li:first-of-type {
+	margin-left: 0;
+}
+nav#navBar ul li {
+    margin-left: 4.5rem;
+}
+nav#navBar ul li a {
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.8rem;
+	font-weight: 600;
+	color: white;
+    letter-spacing: 0.2rem;
+}
+nav#navBar ul li a:hover {
+    text-decoration: underline;
+}
+nav#navBar #ac_home #navBarLogo {
+	height: 22px;
+	vertical-align: middle;
+}
